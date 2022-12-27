@@ -247,45 +247,6 @@ function PasswordGenerator() {
             </div>
         </>
     );
-
-
-    // Page
-    // return (
-    //     <div>
-    //         <h3>Password Generator</h3>
-    //         <input type="text" value={password} readOnly/>
-    //         <button onClick={generatePassword}>Generate</button>
-    //         <button onClick={copyToClipboard}>Copy</button>
-
-    //         {/* LENGTH SLIDER */}
-    //         <p>Length</p>
-    //         <input
-    //             type="range"
-    //             min="8"
-    //             max="100"
-    //             value={length}
-    //             onChange={handleSliderChange}
-    //         />
-    //         {length}
-            
-    //         {/* TOGGLES */}
-    //         <div>
-    //             <button onClick={toggleIncludeUppercase}>{includeUppercase ? 'On' : 'Off'}</button>
-    //             Include capital letters (A - Z)
-    //         </div>
-
-    //         <div>
-    //             <button onClick={toggleIncludeNumbers}>{includeNumbers ? 'On' : 'Off'}</button>
-    //             Include numbers (0 - 9)
-    //         </div>
-
-    //         <div>
-    //             <button onClick={toggleIncludeSymbols}>{includeSymbols ? 'On' : 'Off'}</button>
-    //             Include symbols (!@#$%^&*())
-    //         </div>
-
-    //     </div>
-    // );
 }
 
 export default PasswordGenerator;
